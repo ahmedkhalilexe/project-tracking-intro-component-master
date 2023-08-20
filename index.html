@@ -16,32 +16,37 @@
     <title>Frontend Mentor | Project tracking intro component</title>
   </head>
   <body>
-    <nav>
-      <img src="images/logo.svg" alt="Logo" />
-      <ul>
-        <li>Product</li>
-        <li>Features</li>
-        <li>Pricing</li>
-        <li>Login</li>
-      </ul>
-    </nav>
-    <main class="heroContainer">
-      <div class="leftSide">
-        <div class="announceHeading">
-          <span>New</span>
-          <h3>Monograph Dashboard</h3>
+    <div class="container">
+      <nav>
+        <img src="images/logo.svg" alt="Logo" />
+        <ul>
+          <li>Product</li>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li id="loginBtn">Login</li>
+        </ul>
+      </nav>
+      <main class="heroContainer">
+        <div class="leftSide">
+          <div class="announceHeading">
+            <span>New</span>
+            <h3>Monograph Dashboard</h3>
+          </div>
+          <h1 class="Heading">Powerful insights into your team</h1>
+          <p>Project planning and time tracking for agile teams</p>
+          <!-- click to action buttons -->
+          <div class="CTR">
+            <a href="#">Schedule a demo</a>
+            <span>to see a live preview</span>
+          </div>
         </div>
-        <h1 class="Heading">Powerful insights into your team</h1>
-        <p>Project planning and time tracking for agile teams</p>
-        <!-- click to action buttons -->
-        <div class="CTR">
-          <a href="#">Schedule a demo</a>
-          <span>to see a live preview</span>
+        <div class="rightSide">
+          <img
+            src="images/illustration-devices.svg"
+            alt="illustration devices"
+          />
         </div>
-      </div>
-      <div class="rightSide">
-        <img src="images/illustration-devices.svg" alt="illustration devices" />
-      </div>
-    </main>
+      </main>
+    </div>
   </body>
 </html>
