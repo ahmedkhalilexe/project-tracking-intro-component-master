@@ -79,6 +79,7 @@ nav {
 .heroContainer {
   display: flex;
   justify-content: space-between;
+  padding: 60px 0;
   &::before {
     content: "";
     display: block;
